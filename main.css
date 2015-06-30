@@ -1,0 +1,8 @@
+body *{
+	border: 1px solid black;
+}
+*/
+section{
+	display: inline-block;
+	width: 40%;
+}
