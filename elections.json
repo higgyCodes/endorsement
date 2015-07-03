@@ -1,0 +1,220 @@
+
+
+{"elections" : {
+  "alta" : {
+    "atlarge" : {
+      "name": "Alta Council At Large",
+      "county" : "Salt Lake County",
+      "votefor" : 2
+    }
+  },
+
+  "bluffdale" : {
+    "atlarge" : {
+      "name": "Bluffdale City Council At Large",
+      "county": "Salt Lake County",
+      "votefor" : 3
+    }
+  },
+
+  "cottonwoodheights" : {
+    "citycouncil1" : {
+      "name": "Cottonwood Heights City Council 1",
+      "county": "Salt Lake County"
+      },
+    "citycouncil2" : {
+      "name" : "Cottonwood Heights City Council 2",
+      "county" : "Salt Lake County"
+    }
+  },
+
+  "draper" : {
+    "atlarge" : {
+      "name" : "Draper City Council At Large",
+      "county" : "Salt Lake County",
+      "votefor" : 3
+    }
+  },
+
+  "herriman": {
+    "citycouncil1" : {
+      "name" : "Herriman City Council 1",
+      "county" : "Salt Lake County"
+      },
+    "citycouncil4" : {
+      "name" : "Herriman City Council 4",
+      "county" : "Salt Lake County"
+    }
+  },
+
+  "holladay": {
+    "citycouncil2" : {
+      "name" : "Holladay City Council 2",
+      "county" : "Salt Lake County"
+      },
+    "citycouncil4" : {
+      "name": "Holladay City Council 4",
+      "county": "Salt Lake County"
+    }
+  },
+
+  "midvale": {
+    "citycouncil1" : {
+      "name" : "Midvale City Council 1",
+      "county" : "Salt Lake County"
+      },
+    "citycouncil2" : {
+      "name" : "Midvale City Council 2",
+      "county" : "Salt Lake County"
+      },
+    "citycouncil3" : {
+      "name": "Midvale City Council 3",
+      "county": "Salt Lake County"
+      }
+    },
+
+  "murray" : {
+    "citycouncil1" : {
+      "name" : "Murray City Council 1",
+      "county" : "Salt Lake County"
+      },
+    "citycouncil3" : {
+      "name" : "Murray City Council 3",
+      "county" : "Salt Lake County"
+      },
+    "citycouncil5" : {
+      "name" : "Murray City Council 1",
+      "county" : "Salt Lake County"
+      }
+    },
+
+  "riverton": {
+    "citycouncil1" : {
+      "name": "Riverton City Council 1",
+      "county": "Salt Lake County"
+    },
+    "citycouncil2" : {
+      "name": "Riverton City Council 2",
+      "county": "Salt Lake County"
+    },
+     "citycouncil5" : {
+      "name": "Riverton City Council 5",
+      "county": "Salt Lake County"
+    }
+  },
+
+  "saltlake": {
+    "citymayor" : {
+      "name": "Salt Lake City Mayor",
+      "county": "Salt Lake County"
+    },
+    "citycouncil2" : {
+      "name": "Salt Lake City Council 2",
+      "county": "Salt Lake County"
+    },
+    "citycouncil4" : {
+      "name": "Sale Lake City Council 4",
+      "county": "Salt Lake County"
+    },
+    "citycouncil6" : {
+      "name": "Cottonwood Heights City Council 1",
+      "county": "Salt Lake County"
+    }
+  },
+
+  "sandy": {
+    "atlarge" : {
+      "name" : "Sandy City At Large",
+      "county" : "Salt Lake County",
+      "votefor" : 2
+    },
+    "citycouncil2" : {
+      "name": "Sandy City Council 2",
+      "county": "Salt Lake County"
+    },
+    "citycouncil4" : {
+      "name": "Sandy City Council 4",
+      "county": "Salt Lake County"
+    }
+  },
+
+  "southjordan": {
+    "citycouncil2" : {
+      "name" : "South Jordan City Council 2",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil4" : {
+      "name" : "South Jordan City Council 4",
+      "county" : "Salt Lake County"
+    }
+  },
+
+  "southsaltlake": {
+    "atlarge" : {
+      "name" : "South Salt Lake City Council At Large",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil1" : {
+      "name" : "South Salt Lake City Council 1",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil4" : {
+      "name" : "South Salt Lake City Council 4",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil5" : {
+      "name" : "South Salt Lake City Council 5",
+      "county" : "Salt Lake County"
+    }
+  },
+
+  "taylorsville": {
+    "citycouncil1" : {
+      "name" : "Taylorsville City Council 1",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil2" : {
+      "name" : "Taylorsville City Council 2",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil3" : {
+      "name" : "Taylorsville City Council 3",
+      "county" : "Salt Lake County"
+    }
+  },
+
+  "westjordan": {
+    "citycouncil1" : {
+      "name" : "West Jordan City Council 1",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil2" : {
+      "name" : "West Jordan City Council 2",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil3" : {
+      "name" : "West Jordan City Council 3",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil4" : {
+      "name" : "West Jordan City Council 4",
+      "county" : "Salt Lake County"
+    }
+  },
+
+  "westvalley": {
+    "atlarge" : {
+      "name" : "West Valley City Council At Large",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil1" : {
+      "name" : "West Valley City Council 1",
+      "county" : "Salt Lake County"
+    },
+    "citycouncil3" : {
+      "name" : "West Valley City Council 3",
+      "county" : "Salt Lake County"
+    }
+  }
+}
+}

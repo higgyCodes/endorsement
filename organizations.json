@@ -1,0 +1,51 @@
+{"organizations": {
+  
+  "aflcio" : {
+    "name" : "AFL-CIO",
+    "shortname" : "AFL-CIO",
+    "endorsements" : {}
+  },
+
+  "ppac" : {
+    "name" : "Planned Parenthood",
+    "shortname" : "PPAC",
+    "endorsements" : {}
+  },
+
+  "equalityutah" : {
+    "name" : "Equality Utah",
+    "shortname" : "EU",
+    "endorsements" : {}
+    },
+
+  "ibew" : {
+    "name" : "IBEW 354",
+    "shortname" : "IBEW 354",
+    "endorsements" : {}
+    },
+
+  "laborerslocal" : {
+    "name" : "Laborers Local 295",
+    "shortname" : "LL295",
+    "endorsements" : {}
+    },
+
+  "uea" : {
+    "name" : "Utah Education Association",
+    "shortname" : "UEA",
+    "endorsements" : {}
+    },
+
+  "oe3" : {
+    "name" : "Operating Engineers 3",
+    "shortname" : "OE3",
+    "endorsements" : {}
+    },
+
+  "betterutah" : {
+    "name" : "Alliance for a Better Utah",
+    "shortname" : "ABU",
+    "endorsements" : {}
+  }
+}
+}
