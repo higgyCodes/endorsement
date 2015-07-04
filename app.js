@@ -1,5 +1,5 @@
 
-var utahVotes = angular.module('utahVotes', ['ui.router']);
+var utahVotes = angular.module('utahVotes', ['ui.router', "firebase"]);
 
 utahVotes.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home')
@@ -37,11 +37,13 @@ utahVotes.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'municipal.html'
             
         })
+
          .state('endorsements.racetype.city', {
             url: "/city",
             templateUrl: 'city.html'
             
         })
+
          .state('endorsements.racetype.race', {
             url: "/race",
             templateUrl: 'race.html'
@@ -60,8 +62,11 @@ utahVotes.config(function($stateProvider, $urlRouterProvider) {
        
 });
 
-utahVotes.controller('myCtrl', ['$scope', function($scope){
+utahVotes.controller('myCtrl', ['$scope', function($scope, $firebaseObject){
+    var ref = new Firebase("https://dazzling-torch-2032.firebaseio.com");
 
+    $scope.data = $firebaseObject(ref);
+    
 	$scope.cities = ['Salt Lake', 'South Salt Lake', 'Draper', 'Midvale']
 
 	$scope.setFilter = function(whichFilter){

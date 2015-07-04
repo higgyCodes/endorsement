@@ -1,6 +1,6 @@
 
-
-{"elections" : {
+{"2015" : {
+"elections" : {
   "alta" : {
     "atlarge" : {
       "name": "Alta Council At Large",
@@ -216,5 +216,6 @@
       "county" : "Salt Lake County"
     }
   }
+}
 }
 }

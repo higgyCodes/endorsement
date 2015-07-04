@@ -4,693 +4,692 @@
 			"name" : "Elise Deluna Morgan",
 			"status" : "Filed",
 			"election" : "alta.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 		},
 		"sondakh" : {
 			"name" : "Harris Sondak",
 			"status" : "Filed",
 			"election" : "alta.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 		},
 		"mccabek" : {
 			"name" : "Kenneth R. McCabe",
 			"status" : "Filed",
 			"election" : "bluffdale.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 		},
 		"wingatej" : {
 			"name" : "James J. Wingate",
 			"status" : "Filed",
 			"election" : "bluffdale.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"nielsent" : {
 			"name" : "Ty T. Nielsen",
 			"status" : "Filed",
 			"election" : "bluffdale.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"preeceb" : {
 			"name" : "Boyd Preece",
 			"status" : "Filed",
 			"election" : "bluffdale.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"lordn" : {
 			"name" : "Nancy Lord",
 			"status" : "Filed",
 			"election" : "bluffdale.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"satinim" : {
 			"name" : "Margarita Satini",
 			"status" : "Filed",
 			"election" : "cottonwoodheights.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"sheltonm" : {
 			"name" : "Mike Shelton",
 			"status" : "Filed",
 			"election" : "cottonwoodheights.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"schwartze" : {
 			"name" : "Edward Schwartz",
 			"status" : "Filed",
 			"election" : "cottonwoodheights.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"brackens" : {
 			"name" : "Scott Braken",
 			"status" : "Filed",
 			"election" : "cottonwoodheights.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"weeksm" : {
 			"name" : "Michele Weeks",
 			"status" : "Filed",
 			"election" : "draper.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"poirierj" : {
 			"name" : "Justin Poirier",
 			"status" : "Filed",
 			"election" : "draper.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"summerhaysa" : {
 			"name" : "Alan Summerhays",
 			"status" : "Filed",
 			"election" : "draper.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"colbertb" : {
 			"name" : "Bill Colbert",
 			"status" : "Filed",
 			"election" : "draper.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"grewalm" : {
 			"name" : "Mani Grewal",
 			"status" : "Filed",
 			"election" : "draper.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"vawdreym" : {
 			"name" : "Marsha R. Vawdrey",
 			"status" : "Filed",
 			"election" : "draper.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"hendersonj" : {
 			"name" : "Jared Henderson",
 			"status" : "Primary",
 			"election" : "herriman.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"zeyerb" : {
 			"name" : "Bethany Zeyer",
 			"status" : "Primary",
 			"election" : "herriman.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"conleyj" : {
 			"name" : "Jared Conley",
 			"status" : "Primary",
 			"election" : "herriman.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"garretts" : {
 			"name" : "Steve Garrett",
 			"status" : "Primary",
 			"election" : "herriman.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"martinn" : {
 			"name" : "Nicole Martin",
 			"status" : "Primary",
 			"election" : "herriman.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"wattsd" : {
 			"name" : "David Watts",
 			"status" : "Primary",
 			"election" : "herriman.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"hurdsmank" : {
 			"name" : "Kurt Hurdsman",
 			"status" : "Primary",
 			"election" : "herriman.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"kingsburyv" : {
 			"name" : "Valarie Kingbury",
 			"status" : "Primary",
 			"election" : "herriman.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"pacel" : {
 			"name" : "Lynn H. Pace",
 			"status" : "Filed",
 			"election" : "holladay.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"smootm" : {
 			"name" : "Mitchell C Smoot",
 			"status" : "Primary",
 			"election" : "holladay.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"olsenm" : {
 			"name" : "Mark Christian Olsen",
 			"status" : "Primary",
 			"election" : "holladay.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"gunns" : {
 			"name" : "Steven H. Gunn",
 			"status" : "Primary",
 			"election" : "holladay.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"palmerj" : {
 			"name" : "J. James (Jim) Palmer",
 			"status" : "Filed",
 			"election" : "holladay.citycouncil5",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"stewartm" : {
 			"name" : "Mark Holmes Stewart",
 			"status" : "Filed",
 			"election" : "",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"sperryq" : {
 			"name" : "Quinn Sperry",
 			"status" : "Filed",
 			"election" : "midvale.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"blackb" : {
 			"name" : "Bret Black",
 			"status" : "Filed",
 			"election" : "midvale.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"hawes-tingeys" : {
 			"name" : "Sophia Hawes-Tingey",
 			"status" : "Primary",
 			"election" : "midvale.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"coombsn" : {
 			"name" : "Nathan F. Coombs",
 			"status" : "Primary",
 			"election" : "midvale.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"gloverp" : {
 			"name" : "Paul C. Glover",
 			"status" : "Primary",
 			"election" : "midvale.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"huntp" : {
 			"name" : "Paul Hunt",
 			"status" : "Filed",
 			"election" : "midvale.citycouncil3",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"nicponskid" : {
 			"name" : "David L. Nicponski",
 			"status" : "Filed",
 			"election" : "murray.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"doncouse" : {
 			"name" : "Tiffany Doncouse",
 			"status" : "Filed",
 			"election" : "murray.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"brassj" : {
 			"name" : "Jim Brass",
 			"status" : "Filed",
 			"election" : "murray.citycouncil3",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"halesb" : {
 			"name" : "Brett A. Hales",
 			"status" : "Filed",
 			"election" : "murray.citycouncil5",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"johnsonh" : {
 			"name" : "Hal Ryan Johnson",
 			"status" : "Filed",
 			"election" : "murray.citycouncil5",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"stewarts" : {
 			"name" : "Sheldon B. Stewart",
 			"status" : "Filed",
 			"election" : "riverton.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"tingeyt" : {
 			"name" : "Tricia Tingey",
 			"status" : "Filed",
 			"election" : "riverton.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"bestj" : {
 			"name" : "Jason R Best",
 			"status" : "Filed",
 			"election" : "riverton.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"newmanp" : {
 			"name" : "Perry Howard Newman",
 			"status" : "Filed",
 			"election" : "riverton.citycouncil5",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"johnsonw" : {
 			"name" : "W.M. Brent Johnson",
 			"status" : "Filed",
 			"election" : "riverton.citycouncil5",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"robinsond" : {
 			"name" : "Dave Robinson",
 			"status" : "Primary",
 			"election" : "saltlake.citymayor",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"chapmang" : {
 			"name" : "George Chapman",
 			"status" : "Primary",
 			"election" : "saltlake.citymayor",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"garrotl" : {
 			"name" : "Luke Garrott",
 			"status" : "Primary",
 			"election" : "saltlake.citymayor",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"beckerr" : {
 			"name" : "Ralph Becker",
 			"status" : "Primary",
 			"election" : "saltlake.citymayor",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"biskupskij" : {
 			"name" : "Jackie Biskupski",
 			"status" : "Primary",
 			"election" : "saltlake.citymayor",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"johnstona" : {
 			"name" : "Andrew Johnston",
 			"status" : "Filed",
 			"election" : "saltlake.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"vanblairt" : {
 			"name" : "Turner Van Blair",
 			"status" : "Filed",
 			"election" : "saltlake.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"pettym" : {
 			"name" : "Miles Petty",
 			"status" : "Primary",
 			"election" : "saltlake.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"salazarn" : {
 			"name" : "Nate Salazar",
 			"status" : "Primary",
 			"election" : "saltlake.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"kitchend" : {
 			"name" : "Derek Kitchen",
 			"status" : "Primary",
 			"election" : "saltlake.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"colbyj" : {
 			"name" : "Jen Colby",
 			"status" : "Primary",
 			"election" : "saltlake.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"delayb" : {
 			"name" : "Babs de Lay",
 			"status" : "Primary",
 			"election" : "saltlake.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"hartyt" : {
 			"name" : "Tracey Harty",
 			"status" : "Filed",
 			"election" : "saltlake.citycouncil6",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"lukec" : {
 			"name" : "Charlie Luke",
 			"status" : "Filed",
 			"election" : "saltlake.citycouncil6",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"savillel" : {
 			"name" : "Linda M. Saville",
 			"status" : "Primary",
 			"election" : "sandy.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"kowalliss" : {
 			"name" : "Sean J. Kowallis",
 			"status" : "Primary",
 			"election" : "sandy.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"fairbankss" : {
 			"name" : "Steve Fairbanks",
 			"status" : "Primary",
 			"election" : "sandy.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"ormej" : {
 			"name" : "Jeff T. Orme",
 			"status" : "Primary",
 			"election" : "sandy.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"tenneyd" : {
 			"name" : "Dennis Tenney",
 			"status" : "Filed",
 			"election" : "sandy.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"barkerm" : {
 			"name" : "Maren Barker",
 			"status" : "Filed",
 			"election" : "sandy.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"mccandlessc" : {
 			"name" : "Chris McCandless",
 			"status" : "Filed",
 			"election" : "sandy.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"vanmarens" : {
 			"name" : "Steven Vanmaren",
 			"status" : "Filed",
 			"election" : "sandy.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"hansene" : {
 			"name" : "Eric Hansen",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"harrisp" : {
 			"name" : "Parick Harris",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"florina" : {
 			"name" : "Anna T. Florin",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"geilmannt" : {
 			"name" : "Thomas E. Geilmann",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"gedgen" : {
 			"name" : "Nathan D. Gedge",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"marlorb" : {
 			"name" : "Brad Marlor",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"newtonc" : {
 			"name" : "Chuck Newton",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"petersena" : {
 			"name" : "Andrew C. Petersen",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"batemanp" : {
 			"name" : "Paul Bateman",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"mowerk" : {
 			"name" : "Keila Mower",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"zandert" : {
 			"name" : "Tamara Zander",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"rossj" : {
 			"name" : "Joe Ross",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"geilmannj" : {
 			"name" : "John H. Geilmann",
 			"status" : "Primary",
 			"election" : "southjordan.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"pehrsond" : {
 			"name" : "Derk O. Pehrson",
 			"status" : "Filed",
 			"election" : "southsaltlake.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"kindredm" : {
 			"name" : "Mark C. Kindred",
 			"status" : "Filed",
 			"election" : "southsaltlake.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"penderb" : {
 			"name" : "Ben B. Pender",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"christoffersenj" : {
 			"name" : "Jill Christoffersen",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"connellyc" : {
 			"name" : "Charles Connelly Jr.",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"blackl" : {
 			"name" : "Lynn Black",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"milap" : {
 			"name" : "Portia Mila",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"mcconnellj" : {
 			"name" : "Johnny McConnell",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"dayw" : {
 			"name" : "W. Maurice Day",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"jonesi" : {
 			"name" : "Irvin H. Jones",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil5",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"siwikl" : {
 			"name" : "L. Shane Siwik",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil5",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"coilj" : {
 			"name" : "Jill L. Coil",
 			"status" : "Primary",
 			"election" : "southsaltlake.citycouncil5",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"grossmani" : {
 			"name" : "Israel M. Grossman",
 			"status" : "Filed",
 			"election" : "taylorsville.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"burgesse" : {
 			"name" : "Ernest Glen Burgess",
 			"status" : "Filed",
 			"election" : "taylorsville.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"spencerg" : {
 			"name" : "Glen W. Spencer",
 			"status" : "Primary",
 			"election" : "taylorsville.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"dargerm" : {
 			"name" : "Michael J. Darger",
 			"status" : "Primary",
 			"election" : "taylorsville.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"oversonk" : {
 			"name" : "Kristie Steadman Overson",
 			"status" : "Primary",
 			"election" : "taylorsville.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"morleyr" : {
 			"name" : "Richard Tanner Morley",
 			"status" : "Filed",
 			"election" : "taylorsville.citycouncil3",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"christoffesonc" : {
 			"name" : "Brad Christofferson",
 			"status" : "Filed",
 			"election" : "taylorsville.citycouncil3",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"mertink" : {
 			"name" : "Kevin L. Mertin",
 			"status" : "Primary",
 			"election" : "westjordan.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"mcconneheyc" : {
 			"name" : "Christoper M. McConnehey",
 			"status" : "Primary",
 			"election" : "westjordan.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"thomasj" : {
 			"name" : "Jay Thomas",
 			"status" : "Primary",
 			"election" : "westjordan.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"hansenj" : {
 			"name" : "Judith M. Hansen",
 			"status" : "Filed",
 			"election" : "westjordan.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"burtond" : {
 			"name" : "Dirk Burton",
 			"status" : "Filed",
 			"election" : "westjordan.citycouncil2",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"mcconneheyt" : {
 			"name" : "Tim McConnehey",
 			"status" : "Filed",
 			"election" : "westjordan.citycouncil3",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"jacobz" : {
 			"name" : "Zach Jacob",
 			"status" : "Filed",
 			"election" : "westjordan.citycouncil3",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"andersona" : {
 			"name" : "Alan R Anderson",
 			"status" : "Filed",
 			"election" : "westjordan.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"rices" : {
 			"name" : "Sophie Rice",
 			"status" : "Filed",
 			"election" : "westjordan.citycouncil4",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"christensend" : {
 			"name" : "Don Christensen",
 			"status" : "Filed",
 			"election" : "westvalley.atlarge",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"wileyl" : {
 			"name" : "Larry Wiley",
 			"status" : "Primary",
 			"election" : "westvalley.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"huynht" : {
 			"name" : "Tom Huynh",
 			"status" : "Primary",
 			"election" : "westvalley.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"garciaj" : {
 			"name" : "Joe Garcia",
 			"status" : "Primary",
 			"election" : "westvalley.citycouncil1",
-			"endorsements" : []
+			"endorsements" : {}
 			},
 		"langk" : {
 			"name" : "Karen Lang",
 			"status" : "Filed",
 			"election" : "westvalley.citycouncil3",
-			"endorsements" : []
-			},
+			"endorsements" : {}
+			}
 		}
 	}
-}
 }
