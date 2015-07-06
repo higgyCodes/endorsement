@@ -1,0 +1,51 @@
+{"city" : {
+	"alta" : {
+		"name" : "Alta"
+		},
+	"bluffdale" : {
+		"name" : "Bluffdale City"
+		},
+	"cottonwoodheights" : {
+		"name" : "Cottonwood Heights"
+		},
+	"draper" : {
+		"name" : "Draper City"
+		},
+	"herriman" : {
+		"name" : "Herriman City"
+		},
+	"holladay" : {
+		"name" : "Holladay City"
+		},
+	"midvale" : {
+		"name" : "Midvale City"
+		},
+	"murray" : {
+		"name" : "Murray City"
+		},
+	"riverton" : {
+		"name" : "Riverton City"
+		},
+	"saltlake" : {
+		"name" : "Salt Lake City"
+		},
+	"sandy" : {
+		"name" : "Sandy City"
+		},
+	"southjordan" : {
+		"name" : "South Jordan City"
+		},
+	"southsaltlake" : {
+		"name" : "South Salt Lake City"
+		},
+	"taylorsville" : {
+		"name" : "Taylorsville City"
+		},
+	"westjordan" : {
+		"name" : "West Jordan City"
+		},
+	"westvalley" : {
+		"name" : "West Valley City"
+		}
+	}
+}

@@ -1,5 +1,5 @@
 
-var utahVotes = angular.module('utahVotes', ['ui.router', "firebase"]);
+var utahVotes = angular.module('utahVotes', ['ui.router', 'firebase']);
 
 utahVotes.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home')
@@ -62,12 +62,7 @@ utahVotes.config(function($stateProvider, $urlRouterProvider) {
        
 });
 
-utahVotes.controller('myCtrl', ['$scope', function($scope, $firebaseObject){
-    var ref = new Firebase("https://dazzling-torch-2032.firebaseio.com");
-
-    $scope.data = $firebaseObject(ref);
-    
-	$scope.cities = ['Salt Lake', 'South Salt Lake', 'Draper', 'Midvale']
+utahVotes.controller('myCtrl', ['$scope', function($scope){
 
 	$scope.setFilter = function(whichFilter){
 		if ($scope.filterBy === whichFilter) {
@@ -78,3 +73,16 @@ utahVotes.controller('myCtrl', ['$scope', function($scope, $firebaseObject){
 	};
 
 }]);
+
+utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
+  var ref = new Firebase("https://DAZZLING-TORCH-2032.firebaseio.com/");
+  // download the data into a local object
+  var syncObject = $firebaseObject(ref);
+  // synchronize the object with a three-way data binding
+  // click on `index.html` above to see it used in the DOM!
+  syncObject.$bindTo($scope, "data");
+  $scope.cities = $firebaseObject(ref.child('city'));
+  $scope.test = $firebaseObject(ref.child('candidates'));
+
+});
+
