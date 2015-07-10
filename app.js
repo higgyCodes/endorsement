@@ -35,6 +35,13 @@ utahVotes.config(function($stateProvider, $urlRouterProvider) {
          .state('endorsements.racetype.municipal', {
             url: "/municipal ",
             templateUrl: 'municipal.html'
+
+            
+        })
+
+         .state('endorsements.racetype.county', {
+            url: "/county",
+            templateUrl: 'county.html'
             
         })
 
@@ -85,4 +92,22 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
   $scope.test = $firebaseObject(ref.child('candidates'));
 
 });
+
+utahVotes.controller('ItemListCtrl', ['$scope', 'angularFire',
+  function ItemListCtrl($scope, angularFire) {
+    var ref = new Firebase("https://DAZZLING-TORCH-2032.firebaseio.com/");
+    angularFire(ref, $scope, 'city');
+
+
+  }
+]);
+
+
+utahVotes.controller("ListCtrl", ["$scope", "$firebaseArray",
+  function($scope, $firebaseArray) {
+    var list = $firebaseArray(new Firebase("https://DAZZLING-TORCH-2032.firebaseio.com/city"));
+    $scope.list = list;
+}
+]);
+
 

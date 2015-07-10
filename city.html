@@ -1,11 +1,12 @@
-<div>
-<div>
-	<ol class="breadcrumb">
-	  <li><a href="#">Endorsements</a></li>
-	  <li><a href="#">Municipal</a></li>
-	  <li><a href="#">City</a></li>
-	  <li class="active">Race</li>
-	</ol>
-</div>
-	<p><a ui-sref="endorsements.racetype.race"> District 4 </p>
+<div ng-controller="ListCtrl">
+	<div>
+		<ol class="breadcrumb">
+		  <li><a href="#/endorsements/racetype/menu">Endorsements</a></li>
+		  <li><a href="#/endorsements/racetype/menu">Municipal Elections</a></li>
+		  <li class="active">Salt Lake County</li>
+		</ol>
+	</div>
+	<div class="btn-group" >
+		<div class="btn btn-default btn-md dropdown-toggle col-lg-12 btn-block" ng-repeat="item in list" a ui-sref="endorsements.racetype.race"> {{ item.name }} </div>
+	</div>
 </div>
