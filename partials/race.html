@@ -1,0 +1,11 @@
+<div ng-controller="ListCtrl">
+<div>
+	<ol class="breadcrumb">
+		  <li><a href="#/endorsements/racetype/menu">Endorsements</a></li>
+		  <li><a href="#/endorsements/racetype/menu">Municipal Elections</a></li>
+		  <li><a href="#/endorsements/racetype/city">Salt Lake County</a></li>
+		  <li class="active">Race</li>
+		</ol>
+</div>
+	<button class="btn btn-default btn-md dropdown-toggle col-lg-12 btn-block" type="button" ng-repeat=" city in elections">{{ $scope.choice }}</button>
+</div>

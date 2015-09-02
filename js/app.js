@@ -10,7 +10,7 @@ utahVotes.config(function($stateProvider, $urlRouterProvider) {
 
         .state('home', {
             url: '/home',
-            templateUrl: 'home.html'
+            templateUrl: 'partials/home.html'
         })
 
 
