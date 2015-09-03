@@ -4,9 +4,8 @@
 		  <li class="active">Endorsements</li>
 		</ol>
 	</div>
-	<div>
-
-
-
+	<div ng-repeat="item in selected">
+	<button ng-click="select(item)">{{item}}</button>
 	</div>
+
 </div>
