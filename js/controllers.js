@@ -23,6 +23,8 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
     console.log(obj.years)
 
     var breadcrumb = []
+    var placehold = []
+    var ladder = []
 
     $scope.select = function(data) {
       if (breadcrumb[3] === true) {
@@ -30,13 +32,16 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
       } else if (breadcrumb[2] === true) {
         breadcrumb[3] = data
       } else if (breadcrumb[1] === true) {
-        breadcrumb[2] = data
-        $scope.selected = obj.year[data].electiontype;
-      } else if (breadcrumb[0] === true) {
+        breadcrumb[2] = data;
+      } else if (ladder[0] === true) {
         breadcrumb[1] = data
-        $scope.selected = obj.breadcrumb[0]
+        $scope.selected = obj.counties
+        console.log($scope.selected)
       } else {
+        ladder[0] = true
         breadcrumb[0] = data;
+        console.log('last statement')
+        placehold = breadcrumb[0]
         $scope.selected = obj.year[data].electiontype;
         console.log(data)
       };
