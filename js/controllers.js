@@ -59,7 +59,27 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
     $scope.select = countyList;
     nav = 'county'
     };
+
+
+
     // City Selector
+    if (nav === 'city') {
+      for (i = 0; i < obj.entries.length; i++) {
+        var counter = 0
+        for (s = 0; s < cityList.length; s++) {
+          city = cityList[s];
+          
+          if (obj.entries[i].city === city) {
+            counter += 1
+          }
+        }
+        if (counter == 0) {
+            cityList.push(obj.entries[i].city)
+            console.log(cityList);
+        }
+      }
+    $scope.select = cityList;
+    };
 
     if (nav === 'county') {
       for (i = 0; i < obj.entries.length; i++) {
@@ -67,8 +87,9 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
         for (s = 0; s < countyList.length; s++) {
           county = countyList[s];
           
-          if (obj.entries[i].race === type) {
+          if (obj.entries[i].county === county) {
             counter += 1
+            console.log('COUNTER', counter)
           }
         }
       console.log(counter)
@@ -78,10 +99,8 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
         }
       }
     $scope.select = countyList;
+    nav = 'city'
     };
-
-
-
 
   };
 
