@@ -4,9 +4,15 @@
 		  <li class="active">Endorsements</li>
 		</ol>
 	</div>
-	<div ng-repeat="items in select">
+	<div>
 	<p> Hello </p>
-	<button ng-click="navigate(items)"> {{ items }} </button>
+		<div ng-repeat="items in select">
+			<button ng-click="navigate(items)"> {{ items }} </button>
+			<div ng-repeat="i in candidates">
+				<pre ng-show="cand"> {{i}} 
+				
+				</pre>
+			</div>
 	</div>
 
 </div>

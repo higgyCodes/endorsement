@@ -15,10 +15,13 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
   var ref = new Firebase("https://utah-votes.firebaseio.com/");
   var obj = $firebaseObject(ref);
   var years = obj.years;
+  $scope.candidates = false;
   obj.$loaded().then(function() {
     var typeList = [];
     var countyList = [];
     var cityList = [];
+    var raceList = [];
+    var candidateList = [];
     var nav = ""
     
     for (i = 0; i < obj.entries.length; i++) {
@@ -39,7 +42,7 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
   $scope.select = typeList;
 
   $scope.navigate = function(item) {
-    
+    console.log(nav)
     if (item === "City Municipal") {
       for (i = 0; i < obj.entries.length; i++) {
         var counter = 0
@@ -60,12 +63,45 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
     nav = 'county'
     };
 
+    if($scope.select === raceList) {
+      for (i = 0; i < obj.entries.length; i++) {
+        if(obj.entries[i].munirace === item) {
+          $scope.cand = true;
+          $scope.candidates = obj.entries[i].candidates
+          $scope.endorsements = obj.entries[i].endorsements
+        }
+      };
+    }
+
+
 
 
     // City Selector
+    if (nav === 'munirace') {
+      for (i = 0; i < obj.entries.length; i++) {
+        var counter = 0
+        console.log(item)
+        for (s = 0; s < raceList.length; s++) {
+          race = raceList[s];
+          
+          if (obj.entries[i].munirace === race) {
+            counter += 1
+          }
+        }
+        if (counter == 0 && obj.entries[i].city === item) {
+            raceList.push(obj.entries[i].munirace)
+            console.log(raceList);
+        }
+      }
+    $scope.select = raceList;
+    nav = raceList
+    };
+
+
     if (nav === 'city') {
       for (i = 0; i < obj.entries.length; i++) {
         var counter = 0
+        console.log(item)
         for (s = 0; s < cityList.length; s++) {
           city = cityList[s];
           
@@ -73,12 +109,13 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
             counter += 1
           }
         }
-        if (counter == 0) {
+        if (counter == 0 && obj.entries[i].county === item) {
             cityList.push(obj.entries[i].city)
             console.log(cityList);
         }
       }
     $scope.select = cityList;
+    nav = 'munirace'
     };
 
     if (nav === 'county') {
@@ -92,7 +129,7 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
             console.log('COUNTER', counter)
           }
         }
-      console.log(counter)
+      console.log(counter, item, obj.entries[i].county)
         if (counter == 0) {
             countyList.push(obj.entries[i].county)
             console.log(countyList);
