@@ -9,8 +9,8 @@
 		<div ng-repeat="items in select">
 			<button ng-click="navigate(items)"> {{ items }} </button>
 			<div ng-repeat="i in candidates">
-				<pre ng-show="cand"> {{i}} 
-				
+				<pre ng-show="cand"> {{i.name}} 
+					<span> {{i.endorsements}}</span>
 				</pre>
 			</div>
 	</div>
