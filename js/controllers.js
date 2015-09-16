@@ -17,14 +17,16 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
   var years = obj.years;
   $scope.candidates = false;
   obj.$loaded().then(function() {
-    var breadCrumb = [];
+    $scope.breadCrumb = ["Election Type"];
     var typeList = [];
+    $scope.bcEnd = "Election Type"
     var countyList = [];
     var cityList = [];
     var raceList = [];
     var candidateList = [];
     var nav = ""
-    
+    var bcNum
+
     for (i = 0; i < obj.entries.length; i++) {
       var counter = 0;
       for (s = 0; s < typeList.length; s++) {
@@ -40,11 +42,43 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
 
   $scope.select = typeList;
 
+  $scope.breadOne = function() {
+  console.log($scope.select)
+  $scope.select = typeList;
+  $scope.breadCrumb = $scope.breadCrumb.splice(0,1);
+  bcNum = $scope.breadCrumb.length - 1
+  $scope.bcEnd = $scope.breadCrumb[bcNum]
+  }
+
+$scope.breadTwo = function() {
+  console.log($scope.select)
+  $scope.select = countyList;
+  $scope.breadCrumb = $scope.breadCrumb.splice(0,2);
+  var bcNum = $scope.breadCrumb.length - 1
+  $scope.bcEnd = $scope.breadCrumb[bcNum]
+}
+
+$scope.breadThree = function() {
+  console.log($scope.select)
+  $scope.select = cityList;
+  $scope.breadCrumb = $scope.breadCrumb.splice(0,3);
+  var bcNum = $scope.breadCrumb.length - 1
+  $scope.bcEnd = $scope.breadCrumb[bcNum]
+}
+
+$scope.breadFour = function() {
+  console.log($scope.select)
+  $scope.select = cityList;
+  $scope.breadCrumb = $scope.breadCrumb.splice(0,4);
+  var bcNum = $scope.breadCrumb.length - 1
+  $scope.bcEnd = $scope.breadCrumb[bcNum]
+}
+
   $scope.navigate = function(item) {
-
-    console.log(nav)
-
+    // Working on Breadcrumb
+    
     if($scope.select === raceList) {
+      $scope.breadCrumb.push(item)
       for (i = 0; i < obj.entries.length; i++) {
         if(obj.entries[i].munirace === item) {
           $scope.cand = true;
@@ -56,8 +90,8 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
 
     // City Selector
     if (nav === 'munirace') {
-      breadCrumb.push(item)
-      console.log("Bread Crumb", breadCrumb)
+      $scope.breadCrumb.push(item)
+      console.log("Bread Crumb", $scope.breadCrumb)
       for (i = 0; i < obj.entries.length; i++) {
         var counter = 0
         console.log(item)
@@ -78,8 +112,8 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
     };
 
     if (nav === 'city') {
-      breadCrumb.push(item)
-      console.log(breadCrumb)
+      $scope.breadCrumb.push(item)
+      console.log($scope.breadCrumb)
       for (i = 0; i < obj.entries.length; i++) {
         var counter = 0
         for (s = 0; s < cityList.length; s++) {
@@ -97,9 +131,10 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
     nav = 'munirace'
     };
 
+  
   if (item === "City Municipal") {
-      breadCrumb.push(item);
-      console.log("Breadcrumb", breadCrumb);
+      $scope.breadCrumb.push(item);
+      console.log("Breadcrumb", $scope.breadCrumb);
       for (i = 0; i < obj.entries.length; i++) {
         var counter = 0
         for (s = 0; s < countyList.length; s++) {
@@ -116,9 +151,13 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
     $scope.select = countyList;
     nav = 'city'
     };
-
+    var bcNum = $scope.breadCrumb.length - 1
+    $scope.bcEnd = $scope.breadCrumb[bcNum]
 
   };
+
+
+
 
   });
 
