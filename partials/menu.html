@@ -5,12 +5,15 @@
 		</ol>
 	</div>
 	<div>
+		<ol ng-hide="breadCrumb[1]" class="breadcrumb">
+		  	<li class="active">{{bcEnd}}</li>
+		</ol>
 		<ol class="breadcrumb">
 			<li ng-show="breadCrumb[1]" ng-click="breadOne()" ><a href="">{{breadCrumb[0]}}</a></li>
 			<li ng-show="breadCrumb[2]" ng-click="breadTwo()"><a href="">{{breadCrumb[1]}}</a></li>
 			<li ng-show="breadCrumb[3]" ng-click="breadThree()"><a href="">{{breadCrumb[2]}}</a></li>
 			<li ng-show="breadCrumb[4]" ng-click="breadFour()"><a href="">{{breadCrumb[3]}}</a></li>
-		  	<li class="active">{{bcEnd}}</li>
+		  	<li ng-show="breadCrumb[1]" class="active">{{bcEnd}}</li>
 		</ol>
 
 
