@@ -24,16 +24,23 @@ utahVotes.controller("createCtrl", function($scope, $firebaseObject) {
   		for (i = 0; i < obj.counties.length; i++) {
   			if (list === obj.counties[i]) {
   				$scope.cities = obj.cities[i];
-  				console.log(obj.cities[i])
-  				$scope.headerTwo = "Select City"
+  				$scope.headerTwo = "Select City";
+  				$scope.headerThree = "Select Race Type";
   			}
   		}
   	}
 
   	$scope.secondChoice = function(list) {
-  		
+  		$scope.raceBuilder[2] = list
+  		console.log($scope.raceBuilder)
+  		$scope.munirace = obj.munirace
   	}
 
+  	$scope.thirdChoice = function(list) {
+  		$scope.raceBuilder[3] = list
+  		console.log($scope.raceBuilder)
+ 
+  	}
 
 })
 })

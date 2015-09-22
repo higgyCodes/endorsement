@@ -1,5 +1,7 @@
 <div ng-controller="createCtrl">
 
+<!--City Municipal-->
+
 	<div class="btn-group">
 	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	    {{raceBuilder[0]}} <span class="caret"></span>
@@ -10,6 +12,8 @@
 	    <li><a href="#">Add Race</a></li>
 	  </ul>
 	</div>
+
+<!--County-->
 
 	<div class="btn-group">
 	  <span>
@@ -22,17 +26,7 @@
 	  </span>
 	</div>
 
-	<div class="btn-group">
-	  <span>
-	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{headerTwo}}
-	     <span class="caret"></span>
-
-	  </button>
-	  <ul class="dropdown-menu">
-	    <li ng-repeat="items in cities" ng-click="secondChoice(items)"><a href="">{{items}}</a></li>
-	  </ul>
-	  </span>
-	</div>
+<!-- City -->
 
 	<div class="btn-group">
 	  <span>
@@ -45,5 +39,23 @@
 	  </ul>
 	  </span>
 	</div>
+
+<!-- Racetype -->
+
+	<div class="btn-group">
+	  <span>
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{headerThree}}
+	     <span class="caret"></span>
+
+	  </button>
+	  <ul class="dropdown-menu">
+	    <li ng-repeat="items in munirace" ng-click="thirdChoice(items)"><a href="">{{items}}</a></li>
+	  </ul>
+	  </span>
+	</div>
+
+	<div class="btn-group" role="group" aria-label="...">
+  	<button type="button" class="btn btn-default">Add Candidate</button>
+  	</div>
 
 <div>
