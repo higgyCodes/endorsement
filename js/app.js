@@ -13,7 +13,6 @@ utahVotes.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'partials/home.html'
         })
 
-
     // Endorsments and nested views
 
         .state('endorsements', {
@@ -31,31 +30,23 @@ utahVotes.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'partials/menu.html'
             
         })
-
-         .state('endorsements.racetype.municipal', {
-            url: "/municipal ",
-            templateUrl: 'partials/municipal.html'
-
+         .state('endorsements.addelection', {
+            url: '/addelection',
+            templateUrl: 'partials/addelection.html'
+            
+        })
+         .state('endorsements.rankings', {
+            url: '/rankings',
+            templateUrl: 'partials/rankings.html'
+            
+        })
+        .state('endorsements.racetype.entry', {
+            url: '/entry',
+            templateUrl: 'partials/entry.html'
             
         })
 
-         .state('endorsements.racetype.county', {
-            url: "/county",
-            templateUrl: 'partials/county.html'
-            
-        })
 
-         .state('endorsements.racetype.city', {
-            url: "/city",
-            templateUrl: 'partials/city.html'
-            
-        })
-
-         .state('endorsements.racetype.race', {
-            url: "/race",
-            templateUrl: 'partials/race.html'
-            
-        })
 
 
     // Lobbying and nested views
