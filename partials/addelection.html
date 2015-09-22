@@ -2,13 +2,48 @@
 
 	<div class="btn-group">
 	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	    Race Type <span class="caret"></span>
+	    {{raceBuilder[0]}} <span class="caret"></span>
 	  </button>
 	  <ul class="dropdown-menu">
-	    <li ng-repeat="race in races"><a href="#">{{race}}</a></li>
+	    <li ng-repeat="race in races" ng-click="raceType(race)"><a href="">{{race}}</a></li>
 	    <li role="separator" class="divider"></li>
 	    <li><a href="#">Add Race</a></li>
 	  </ul>
+	</div>
+
+	<div class="btn-group">
+	  <span>
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    {{header}} <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu">
+	    <li ng-repeat="items in list" ng-click="firstChoice(items)" ng-repeat="item in county"><a href="">{{items}}</a></li>
+	  </ul>
+	  </span>
+	</div>
+
+	<div class="btn-group">
+	  <span>
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{headerTwo}}
+	     <span class="caret"></span>
+
+	  </button>
+	  <ul class="dropdown-menu">
+	    <li ng-repeat="items in cities" ng-click="secondChoice(items)"><a href="">{{items}}</a></li>
+	  </ul>
+	  </span>
+	</div>
+
+	<div class="btn-group">
+	  <span>
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{headerTwo}}
+	     <span class="caret"></span>
+
+	  </button>
+	  <ul class="dropdown-menu">
+	    <li ng-repeat="items in cities" ng-click="secondChoice(items)"><a href="">{{items}}</a></li>
+	  </ul>
+	  </span>
 	</div>
 
 <div>
