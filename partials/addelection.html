@@ -1,1 +1,14 @@
-Add election
+<div ng-controller="createCtrl">
+
+	<div class="btn-group">
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    Race Type <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu">
+	    <li ng-repeat="race in races"><a href="#">{{race}}</a></li>
+	    <li role="separator" class="divider"></li>
+	    <li><a href="#">Add Race</a></li>
+	  </ul>
+	</div>
+
+<div>

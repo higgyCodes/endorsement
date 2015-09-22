@@ -1,8 +1,6 @@
 
 var utahVotes = angular.module('utahVotes', ['ui.router', 'firebase']);
 
-var createRace = angular.module('createRace', ['firebase']);
-
 utahVotes.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home')
         
