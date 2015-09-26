@@ -30,7 +30,8 @@
 
 	<div class="btn-group">
 	  <span>
-	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ng-if="raceBuilder[1]"> {{header[2]}}
+	  <!--ng-if="raceBuilder[1]"-->
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{header[2]}}
 	     <span class="caret"></span>
 
 	  </button>
@@ -44,7 +45,8 @@
 
 	<div class="btn-group">
 	  <span>
-	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ng-if="raceBuilder[2]"> {{header[3]}}
+	  <!-- ng-if="raceBuilder[2]"-->
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{header[3]}}
 	     <span class="caret"></span>
 
 	  </button>
@@ -54,30 +56,33 @@
 	  </span>
 	</div>
 
+<!--ng-if="raceBuilder[3]"-->
 <div class="btn-group" role="group" aria-label="...">
-  <button type="button" class="btn btn-default" ng-click="addCandidate()" ng-if="raceBuilder[3]">Add Candidate</button>
+  <button type="button" class="btn btn-default" ng-click="addCandidate()">Add Candidate</button>
 </div>
 
 
 <!-- Candidate Input -->
 	<div ng-repeat="candidate in candidateList">
-	  <div class="col-lg-6">
-	    <div class="input-group">
-	      <input type="text" class="form-control" aria-label="Candidate Name" placeholder="Candidate Name">
-	      <div class="input-group-btn">
-	        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
-	        <ul class="dropdown-menu dropdown-menu-right">
-	          <li><a href="#">Action</a></li>
-	          <li><a href="#">Another action</a></li>
-	          <li><a href="#">Something else here</a></li>
-	          <li role="separator" class="divider"></li>
-	          <li><a href="#">Separated link</a></li>
-	        </ul>
-	      </div><!-- /btn-group -->
-	    </div><!-- /input-group -->
-	  </div><!-- /.col-lg-6 -->
-	  <button type="button" class="btn btn-default btn-med" ng-click="removeCandidate(candidate)">
-  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Remove Candidate
-</button>
-	</div><!-- /.row -->
-</div>	
+	  	<div class="col-lg-6">
+	    	<div class="input-group">
+	      		<input type="text" class="form-control" aria-label="Candidate Name" placeholder="Candidate Name" ng-model="candidateName[candidate]">
+	    	</div><!-- /input-group -->
+		</div><!-- /.col-lg-6 -->
+		
+  			<div class="btn-group" data-toggle="buttons">
+  
+  <label class="btn btn-primary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Not Endorsed
+  </label>
+  <label class="btn btn-success">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Endorsed
+  </label>
+</div>
+<div> <button type="button" class="btn btn-danger" ng-click="repeater(candidateList[candidate])">Delete Candidate</button> </div>
+	</div>
+	<button type="button" class="btn btn-info" ng-click="saveRace()">Save Race</button>
+</div><!-- /.row -->
+
+
+

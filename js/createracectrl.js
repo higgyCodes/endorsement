@@ -54,10 +54,26 @@ var candidate = 0
 		candidate += 1
 	}
 
-	$scope.removeCandidate = function(list) {
-		console.log("Function Working", list)
-		delete $scope.candidateList[list]
-	}
+
+var candidateAction = "Endorse Candidate?"
+$scope.endorseChoices = ["Endorsed", "Not Endorsed", "Third Option"]
+$scope.endorseClick = function(choice) {
+  candidateAction = choice;
+  console.log(candidateAction)
+}
+
+$scope.candidateName = []
+$scope.repeater = function(candidate){
+  console.log(candidate)
+  $scope.candidateList.splice(candidate, 1)
+  $scope.candidateName.splice(candidate, 1)
+  $scope.candidateList
+}
+
+
+$scope.saveRace = function() {
+  console.log("success", $scope.candidateName)
+}
 
 })
 })
