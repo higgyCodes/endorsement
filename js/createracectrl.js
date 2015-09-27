@@ -75,9 +75,13 @@ var currentYear = d.getFullYear()
 console.log(currentYear)
 
 
+console.log(obj)
+
 $scope.saveRace = function() {
-  console.log("success", $scope.candidateName)
+  var id = obj.entries.length
+  console.log("success")
   ref.child("entries").push({
+    
     "year" : currentYear,
     "city" : $scope.raceBuilder[2],
     "county" : $scope.raceBuilder[1],

@@ -1,5 +1,6 @@
 utahVotes.controller('myCtrl', ['$scope', function($scope){
 
+ // Dont know what this does
 	$scope.setFilter = function(whichFilter){
 		if ($scope.filterBy === whichFilter) {
 			$scope.filterBy = "-" + whichFilter;
@@ -16,9 +17,26 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
   var obj = $firebaseObject(ref);
   var years = obj.years;
   $scope.candidates = false;
+
+  ref.once("value", function(snapshot) {
+  // The callback function will get called twice, once for "fred" and once for "barney"
+    snapshot.forEach(function(childSnapshot) {
+    // key will be "fred" the first time and "barney" the second time
+    var key = childSnapshot.key();
+
+    // childData will be the actual contents of the child
+    var childData = childSnapshot.val();
+    console.log(key, childData)
+  });
+});
+
+
+  
   obj.$loaded().then(function() {
+    console.log("success")
     $scope.breadCrumb = ["Election Type"];
     var typeList = [];
+    $scope.select = typeList;
     $scope.bcEnd = "Election Type"
     var countyList = [];
     var cityList = [];
@@ -26,9 +44,11 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
     var candidateList = [];
     var nav = ""
     var bcNum
-
+    console.log(obj.entries)
+    
     for (i = 0; i < obj.entries.length; i++) {
       var counter = 0;
+      console.log(counter)
       for (s = 0; s < typeList.length; s++) {
         var type = typeList[s];
         if (obj.entries[i].race === type) {
@@ -40,7 +60,9 @@ utahVotes.controller("fireCtrl", function($scope, $firebaseObject) {
       }
     }
 
-  $scope.select = typeList;
+  
+
+
 
   $scope.breadOne = function() {
   console.log($scope.select)
