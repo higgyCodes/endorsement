@@ -70,10 +70,29 @@ $scope.repeater = function(candidate){
   $scope.candidateList
 }
 
+var d = new Date();
+var currentYear = d.getFullYear()
+console.log(currentYear)
+
 
 $scope.saveRace = function() {
   console.log("success", $scope.candidateName)
+  ref.child("entries").push({
+    "year" : currentYear,
+    "city" : $scope.raceBuilder[2],
+    "county" : $scope.raceBuilder[1],
+    "munirace" : $scope.raceBuilder[3],
+    "race": $scope.raceBuilder[0],
+    "candidates" : $scope.candidateName
+    })
+  $scope.candidateName = [];
+  $scope.candidateList = [];
+  $scope.racebuilder = [];
+
+  $scope.header = ["race Type"];
 }
+
+
 
 })
 })
